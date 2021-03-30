@@ -1,0 +1,23 @@
+.header {
+    height: 110px;
+
+    position: absolute;
+    top: 0;
+    left: 149px;
+    right: 170px;
+    z-index: 100;
+    
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(206, 224, 234, 0.05);
+
+    &__inner {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 40px 5px;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center; 
+    }  
+}

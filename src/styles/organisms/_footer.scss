@@ -1,0 +1,62 @@
+.footer {
+    background-color: rgba(244, 248, 250, 1);
+    margin-top: 152px;
+
+    &__logo-boa {
+        margin-top: 74px;
+        margin-bottom: 330px;
+    }
+
+    &__copyright-notice {
+        color: rgba(21, 43, 70, 1);
+        font-family: Sora;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-bottom: 31px;
+        white-space: nowrap;
+    }
+    
+    &__list-1 {
+        list-style-type: none;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding-bottom: 26px;
+        }
+
+        &:first-of-type {
+            margin-top: 96px;
+        }
+    }
+     
+    &__item {
+        font-family: Sora;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+
+        color: rgba(21, 43, 70, 1);
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+    
+    &__btn {
+        position: absolute;
+        margin-top: 82px;
+        margin-left: 100px;
+        
+    }
+
+    &__logo-social {
+        margin: 93px 27px 342px 0;
+    }
+}

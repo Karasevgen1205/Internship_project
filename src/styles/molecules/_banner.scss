@@ -1,0 +1,27 @@
+.banner {
+    margin-top: 110px;
+    background-color: rgba(206, 224, 234, 0.05);
+    
+    &__title {
+        font-family: Poppins;
+        font-size: 55px;
+        line-height: 70px;
+        color: #152b46;
+        margin-bottom: 27px;
+        margin-top: 109px;
+    }
+
+    &__little-title {
+        color: #152b46;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 120%;
+        margin-bottom: 80px;
+    }
+
+    &__img {
+        margin-bottom: 98px;
+        width: 788px;
+        height: 658px;
+    }
+}
