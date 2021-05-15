@@ -1,3 +1,3 @@
 # Internship_project
 Internship_project.
-This project 
+This project was
